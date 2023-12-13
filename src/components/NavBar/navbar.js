@@ -57,9 +57,16 @@ const Navbar = () => {
       <button
         className="desktop-menu-button"
         onClick={() => {
-          document
-            .getElementById("contact")
-            .scrollIntoView({ behavior: "smooth" });
+          const contactElement = document.getElementById("contact");
+          if (contactElement) {
+            const offset = -100;
+            const elementPosition =
+              contactElement.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+              top: elementPosition + offset,
+              behavior: "smooth",
+            });
+          }
         }}
       >
         <img src={contactImg} alt="" className="desktop-menu-img" />
@@ -116,7 +123,7 @@ const Navbar = () => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-200}
+          offset={-100}
           duration={500}
           className="list-item"
           onClick={() => setShowMenu(false)}

@@ -9,12 +9,6 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2 className="projects-title">My Projects</h2>
-      <span className="projects-description">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-        perspiciatis consequatur delectus vel iure! Alias sint id odio laborum
-        corrupti, error suscipit dolor, cumque incidunt placeat fuga
-        consequatur, quae dicta.
-      </span>
       <div className="projects-img-container">
         <img src={Project1} alt="" className="projects-img" />
         <img src={Project2} alt="" className="projects-img" />
