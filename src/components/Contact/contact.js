@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./contact.css";
+import "./Contact.css";
 import FacebookIcon from "../../assets/facebook.png";
 import LinkedInIcon from "../../assets/linkedin.png";
 import YoutubeIcon from "../../assets/youtube.png";

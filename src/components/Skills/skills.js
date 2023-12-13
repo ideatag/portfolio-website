@@ -1,5 +1,5 @@
 import React from "react";
-import "./skills.css";
+import "./Skills.css";
 import Skill1 from "../../assets/skill-1.png";
 import Skill2 from "../../assets/skill-2.png";
 import Skill3 from "../../assets/skill-3.png";

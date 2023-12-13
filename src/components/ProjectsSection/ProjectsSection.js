@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.css";
+import "./ProjectsSection.css";
 import Project1 from "../../assets/project-1.png";
 import Project2 from "../../assets/project-2.png";
 import Project3 from "../../assets/project-3.png";
