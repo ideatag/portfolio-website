@@ -9,7 +9,16 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" className="logo" />
+      <Link
+        to="intro"
+        spy={true}
+        smooth={true}
+        offset={-200}
+        duration={500}
+        className="logo"
+      >
+        <img src={logo} width={72} height={68} alt="Logo" />
+      </Link>
       <div className="desktopMenu">
         <Link
           activeClass="active"
