@@ -14,6 +14,7 @@
 .projects-title {
     margin: 24px 0;
     font-size: 36px;   
+    font-weight: 500;
 }
 
 .projects-description {
@@ -47,9 +48,3 @@
       gap: 12px;
     }
   }
-
-@media (min-width: 1024px) {
-    .projects-img-container {
-      grid-template-columns: repeat(3, 1fr);
-    }
-}

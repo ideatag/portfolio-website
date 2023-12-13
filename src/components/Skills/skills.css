@@ -12,8 +12,8 @@
 
 .skill-title {
     font-size: 36px;
-    font-weight: 600;
-    padding-top: 48px;
+    font-weight: 500;
+    padding-top: 12px;
     margin-bottom: 36px;
 }
 
@@ -24,6 +24,11 @@
     padding: 0 12px;
 }
 
+.skill-bar-text>h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .skill-bars {
     margin: 24px;
     width: 100vw;
@@ -32,7 +37,6 @@
 }
 
 .skill-bar {
-    display: flex;
     margin: 24px;
     padding: 12px 24px;
     border-radius: 8px;
@@ -40,33 +44,14 @@
 }
 
 .skill-bar-img {
+    display: block;
+    margin: 0 auto;
     object-fit: cover;
-    height: 54px;
-    width: 54px;
-    margin-right: 12px;
+    height: 60px;
 }
 
-.skill-bar-text>p {
+.skill-bar-text>ul>li {
     font-size: 14px;
     font-weight: 200;
     opacity: 0.5;
-}
-
-@media screen and (max-width:720px) {
-    .skill-bar-text>p{
-        font-size: 2vw;
-    }
-}
-
-@media screen and (max-width:480px) {
-    .skill-bar-text>p{
-        font-size: 3vw;
-    }
-    .skill-bar-img {
-        height: 54px;
-        width: 54px;
-    }
-    .skill-bar-text>h2 {
-        font-size: 5vw;
-    }
 }
