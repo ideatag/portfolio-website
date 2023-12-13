@@ -5,10 +5,10 @@ import bg from "../../assets/image.png";
 function Intro() {
   return (
     <section id="intro">
-      <div className="introContent">
+      <div className="intro-content">
         <span className="hello">Hello,</span>
-        <span className="introText">
-          I'm <span className="introName">Razvan</span>
+        <span className="intro-text">
+          I'm <span className="intro-name">Razvan</span>
           <br />
           Front-End Developer
         </span>
