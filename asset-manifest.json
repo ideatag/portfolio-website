@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.f7607b35.css",
-    "main.js": "/portfolio-website/static/js/main.04ec037c.js",
-    "static/media/image.png": "/portfolio-website/static/media/image.5cb69b4e5f459175178c.png",
+    "main.css": "/portfolio-website/static/css/main.d21a0e96.css",
+    "main.js": "/portfolio-website/static/js/main.afd2c7f7.js",
+    "static/media/profile-img.png": "/portfolio-website/static/media/profile-img.5cb69b4e5f459175178c.png",
+    "static/media/skill-1.png": "/portfolio-website/static/media/skill-1.de4c8a10768326ef342a.png",
     "static/media/project-4.png": "/portfolio-website/static/media/project-4.1958362c3e2666bf7424.png",
+    "static/media/skill-3.png": "/portfolio-website/static/media/skill-3.f1d717bc87c21d27e216.png",
     "static/media/project-2.png": "/portfolio-website/static/media/project-2.07b849aa36a9bff22bb9.png",
-    "static/media/website-design.png": "/portfolio-website/static/media/website-design.ffd79cd2549585e1ecc0.png",
-    "static/media/ui-design.png": "/portfolio-website/static/media/ui-design.cfd06fd2361b4ab3d269.png",
-    "static/media/logo.png": "/portfolio-website/static/media/logo.99f272877398316250de.png",
-    "static/media/app-design.png": "/portfolio-website/static/media/app-design.15044e0971836f21f8fd.png",
     "static/media/contact.png": "/portfolio-website/static/media/contact.b930d2dd6ff16b483817.png",
+    "static/media/skill-2.png": "/portfolio-website/static/media/skill-2.cffeb70bccab5f9f218d.png",
     "index.html": "/portfolio-website/index.html",
-    "main.f7607b35.css.map": "/portfolio-website/static/css/main.f7607b35.css.map",
-    "main.04ec037c.js.map": "/portfolio-website/static/js/main.04ec037c.js.map"
+    "main.d21a0e96.css.map": "/portfolio-website/static/css/main.d21a0e96.css.map",
+    "main.afd2c7f7.js.map": "/portfolio-website/static/js/main.afd2c7f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7607b35.css",
-    "static/js/main.04ec037c.js"
+    "static/css/main.d21a0e96.css",
+    "static/js/main.afd2c7f7.js"
   ]
 }
