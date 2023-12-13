@@ -10,28 +10,28 @@
     margin: 0 auto;
 }
 
-.skillTitle {
+.skill-title {
     font-size: 36px;
     font-weight: 600;
     padding-top: 48px;
     margin-bottom: 36px;
 }
 
-.skillDescription {
+.skill-description {
     font-weight: 300;
     font-size: 16px;
     max-width: 80%;
     padding: 0 12px;
 }
 
-.skillBars {
+.skill-bars {
     margin: 24px;
     width: 100vw;
     max-width: 80%;
     text-align: left;
 }
 
-.skillBar {
+.skill-bar {
     display: flex;
     margin: 24px;
     padding: 12px 24px;
@@ -39,35 +39,34 @@
     background-color: rgb(50, 50, 50);
 }
 
-.skillBarImg {
+.skill-bar-img {
     object-fit: cover;
     height: 54px;
     width: 54px;
     margin-right: 12px;
 }
 
-.skillBarText>p {
+.skill-bar-text>p {
     font-size: 14px;
     font-weight: 200;
     opacity: 0.5;
-    
 }
 
 @media screen and (max-width:720px) {
-    .skillBarText>p{
+    .skill-bar-text>p{
         font-size: 2vw;
     }
 }
 
 @media screen and (max-width:480px) {
-    .skillBarText>p{
+    .skill-bar-text>p{
         font-size: 3vw;
     }
-    .skillBarImg {
+    .skill-bar-img {
         height: 54px;
         width: 54px;
     }
-    .skillBarText>h2 {
+    .skill-bar-text>h2 {
         font-size: 5vw;
     }
 }

@@ -32,13 +32,13 @@ const Contact = () => {
   };
 
   return (
-    <section id="contactPage">
+    <section id="contact-page">
       <div id="contact">
-        <h1 className="contactPageTitle">Contact Me</h1>
-        <span className="contactDescription">
+        <h1 className="contact-page-title">Contact Me</h1>
+        <span className="contact-description">
           Please fill out the form below to discuss any work opportunities.
         </span>
-        <form className="contactForm" ref={form} onSubmit={sendEmail}>
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             className="name"
@@ -57,7 +57,7 @@ const Contact = () => {
             rows="5"
             placeholder="Your message"
           ></textarea>
-          <button type="submit" value="Send" className="submitBtn">
+          <button type="submit" value="Send" className="submit-button">
             Submit
           </button>
           <div className="links">

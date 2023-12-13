@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import bg from "../../assets/image.png";
+import Profile from "../../assets/profile-img.png";
 
 function Intro() {
   return (
@@ -13,7 +13,7 @@ function Intro() {
           Front-End Developer
         </span>
       </div>
-      <img src={bg} alt="Profile" className="bg" />
+      <img src={Profile} alt="Profile" className="profile-img" />
     </section>
   );
 }

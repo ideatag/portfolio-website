@@ -19,7 +19,7 @@ const Navbar = () => {
       >
         <img src={logo} width={72} height={68} alt="Logo" />
       </Link>
-      <div className="desktopMenu">
+      <div className="desktop-menu">
         <Link
           activeClass="active"
           to="intro"
@@ -27,7 +27,7 @@ const Navbar = () => {
           smooth={true}
           offset={-200}
           duration={500}
-          className="desktopMenuListItem"
+          className="desktop-menu-list-item"
         >
           Home
         </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
-          className="desktopMenuListItem"
+          className="desktop-menu-list-item"
         >
           Skills
         </Link>
@@ -49,29 +49,32 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
-          className="desktopMenuListItem"
+          className="desktop-menu-list-item"
         >
           Projects
         </Link>
       </div>
       <button
-        className="desktopMenuBtn"
+        className="desktop-menu-button"
         onClick={() => {
           document
             .getElementById("contact")
             .scrollIntoView({ behavior: "smooth" });
         }}
       >
-        <img src={contactImg} alt="" className="desktopMenuImg" />
+        <img src={contactImg} alt="" className="desktop-menu-img" />
         Contact Me
       </button>
       <img
         src={menu}
         alt="menu"
-        className="mobMenu"
+        className="mobile-menu"
         onClick={() => setShowMenu(!showMenu)}
       />
-      <div className="navMenu" style={{ display: showMenu ? "flex" : "none" }}>
+      <div
+        className="navbar-menu"
+        style={{ display: showMenu ? "flex" : "none" }}
+      >
         <Link
           activeClass="active"
           to="intro"
@@ -79,7 +82,7 @@ const Navbar = () => {
           smooth={true}
           offset={-200}
           duration={500}
-          className="listItem"
+          className="list-item"
           onClick={() => setShowMenu(false)}
         >
           Home
@@ -91,7 +94,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
-          className="listItem"
+          className="list-item"
           onClick={() => setShowMenu(false)}
         >
           Skills
@@ -103,7 +106,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
-          className="listItem"
+          className="list-item"
           onClick={() => setShowMenu(false)}
         >
           Projects
@@ -115,7 +118,7 @@ const Navbar = () => {
           smooth={true}
           offset={-200}
           duration={500}
-          className="listItem"
+          className="list-item"
           onClick={() => setShowMenu(false)}
         >
           Contact

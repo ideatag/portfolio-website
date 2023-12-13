@@ -1,4 +1,4 @@
-#contactPage {
+#contact-page {
     min-height: calc(100vh-48px);
     width: 100vw;
     max-width: 80%;
@@ -10,18 +10,18 @@
     justify-content: center;
 }
 
-.contactPageTitle {
+.contact-page-title {
     font-size: 36px;
     margin: 42px;
 }
 
-.contactDescription {
+.contact-description {
     padding: 24px;
     font-size: medium;
     font-weight: 300;
 }
 
-.contactForm {
+.contact-form {
     margin: 24px;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@
     background: rgb(40, 40, 40);
 }
 
-.submitBtn {
+.submit-button {
     background:white;
     border: none;
     border-radius: 12px;

@@ -7,8 +7,8 @@ import AppDesign from "../../assets/app-design.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <span className="skillTitle">What I do</span>
-      <span className="skillDescription">
+      <span className="skill-title">What I do</span>
+      <span className="skill-description">
         I am a front-end developer with over 1 year of experience, motivated to
         aquire new skills and actively seeking new opportunities. Having an
         analytical personality and a keen eye for details, I primarily focus on
@@ -16,10 +16,10 @@ const Skills = () => {
         company that creates interactive and intuitive websites for clients as a
         front-end developer, from a remote position.
       </span>
-      <div className="skillBars">
-        <div className="skillBar">
-          <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
-          <div className="skillBarText">
+      <div className="skill-bars">
+        <div className="skill-bar">
+          <img src={UIDesign} alt="UIDesign" className="skill-bar-img" />
+          <div className="skill-bar-text">
             <h2>UI/UX Design</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -29,9 +29,9 @@ const Skills = () => {
             </p>
           </div>
         </div>
-        <div className="skillBar">
-          <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
-          <div className="skillBarText">
+        <div className="skill-bar">
+          <img src={WebDesign} alt="WebDesign" className="skill-bar-img" />
+          <div className="skill-bar-text">
             <h2>Website Design</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -41,9 +41,9 @@ const Skills = () => {
             </p>
           </div>
         </div>
-        <div className="skillBar">
-          <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
-          <div className="skillBarText">
+        <div className="skill-bar">
+          <img src={AppDesign} alt="AppDesign" className="skill-bar-img" />
+          <div className="skill-bar-text">
             <h2>App Design</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
