@@ -1,50 +1,57 @@
 #projects {
     margin: 0 auto;
-    min-height: calc(100vh - 54px);
+    min-height: 100vh;
     width: 100vw;
     max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
     padding: 0 24px;
 }
 
-.projects-title {
+.projects-section {
+    display: grid;
+    grid-template-columns: 1 fr;
+}
+
+.projects-section-title {
     margin: 24px 0;
     font-size: 36px;   
     font-weight: 500;
 }
 
-.projects-description {
-    padding: 24px 0;
+.project-title {
+    margin: 12px 0;
+    font-size: 20px;   
     font-weight: 300;
-    font-size: 16px;
-    max-width: 80%;
+    color: white;
 }
 
-.projects-img-container {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    max-width: 80%;
-    grid-template-columns: 1 fr;
-}
 
-.projects-img {
+.project-img {
     object-fit: cover;
-    height: 160px;
-    width: 240px;
     margin: 8px;
     border-radius: 8px;
+    width: 240px;
+    height: 200px;
+    max-width: 100%;
 }
 
 
 @media (min-width: 640px) {
-    .projects-img-container {
+    .projects-section {
       grid-template-columns: repeat(2, 1fr);
-      gap: 12px;
+      gap: 20px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    #projects {
+        max-width: 75%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #projects {
+        max-width: 60%;
     }
   }

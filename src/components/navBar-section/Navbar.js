@@ -47,7 +47,7 @@ const Navbar = () => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-150}
           duration={500}
           className="desktop-menu-list-item"
         >
@@ -111,7 +111,7 @@ const Navbar = () => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-150}
           duration={500}
           className="list-item"
           onClick={() => setShowMenu(false)}
