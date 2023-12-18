@@ -51,12 +51,12 @@
     cursor: pointer;
 }
 
-.links {
+.contact-social-media {
     display: flex;
     flex-wrap: wrap;
 }
 
-.link {
+.contact-social-media-icon {
     object-fit: cover;
     height: 54px;
     width: 54px;

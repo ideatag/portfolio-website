@@ -1,10 +1,8 @@
 import React, { useRef } from "react";
 import "./Contact.css";
-import FacebookIcon from "../../assets/facebook.png";
-import LinkedInIcon from "../../assets/linkedin.png";
-import YoutubeIcon from "../../assets/youtube.png";
-import InstagramIcon from "../../assets/instagram.png";
 import emailjs from "@emailjs/browser";
+import { ContactSocialMediaData } from "./ContactSocialMediaData";
+import ContactSocialMediaCard from "./ContactSocialMediaCard";
 
 const Contact = () => {
   const form = useRef();
@@ -60,11 +58,16 @@ const Contact = () => {
           <button type="submit" value="Send" className="submit-button">
             Submit
           </button>
-          <div className="links">
+          {/* <div className="links">
             <img src={FacebookIcon} alt="Facebook" className="link" />
             <img src={LinkedInIcon} alt="LinkedIn" className="link" />
             <img src={YoutubeIcon} alt="Youtube" className="link" />
             <img src={InstagramIcon} alt="Instagram" className="link" />
+          </div> */}
+          <div className="contact-social-media">
+            {ContactSocialMediaData.map((item) => (
+              <ContactSocialMediaCard key={item.title} area={item} />
+            ))}
           </div>
         </form>
       </div>
