@@ -8,7 +8,7 @@ const ProjectsSection = () => (
     <h3 className="projects-section-title">My Projects</h3>
     <div className="projects-section">
       {ProjectsSectionData.map((item) => (
-        <ProjectsSectionCard key={item.title} area={item} />
+        <ProjectsSectionCard key={item.altText} area={item} />
       ))}
     </div>
   </div>

@@ -34,7 +34,8 @@ const Contact = () => {
       <div id="contact">
         <h1 className="contact-page-title">Contact Me</h1>
         <span className="contact-description">
-          Please fill out the form below to discuss any work opportunities.
+          In order to discuss any work opportunities please fill out the form
+          below.
         </span>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <input
@@ -58,15 +59,9 @@ const Contact = () => {
           <button type="submit" value="Send" className="submit-button">
             Submit
           </button>
-          {/* <div className="links">
-            <img src={FacebookIcon} alt="Facebook" className="link" />
-            <img src={LinkedInIcon} alt="LinkedIn" className="link" />
-            <img src={YoutubeIcon} alt="Youtube" className="link" />
-            <img src={InstagramIcon} alt="Instagram" className="link" />
-          </div> */}
           <div className="contact-social-media">
             {ContactSocialMediaData.map((item) => (
-              <ContactSocialMediaCard key={item.title} area={item} />
+              <ContactSocialMediaCard key={item.altText} area={item} />
             ))}
           </div>
         </form>

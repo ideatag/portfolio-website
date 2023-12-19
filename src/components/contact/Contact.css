@@ -58,7 +58,15 @@
 
 .contact-social-media-icon {
     object-fit: cover;
-    height: 54px;
-    width: 54px;
-    margin: 0 12px;
+    height: 42px;
+    width: 42px;
+    margin: 0 8px;
 }
+
+@media (max-width: 320px) {
+    .contact-social-media-icon {
+        height: 28px;
+        width: 28px;
+        margin: 0 4px;
+    }
+  }

@@ -1,7 +1,5 @@
 import Project1 from "../../assets/project-1.png";
-import Project2 from "../../assets/project-2.png";
-import Project3 from "../../assets/project-3.png";
-import Project4 from "../../assets/project-4.png";
+import ProjectUnavailable from "../../assets/project-unavailable.png";
 
 export const ProjectsSectionData = [
   {
@@ -11,21 +9,21 @@ export const ProjectsSectionData = [
     altText: "Laureus Website",
   },
   {
-    title: "Future Project 2",
+    title: "Temporarly Unavailable",
     link: "",
-    image: Project2,
+    image: ProjectUnavailable,
     altText: "Project 2",
   },
   {
-    title: "Future Project 3",
+    title: "Temporarly Unavailable",
     link: "",
-    image: Project3,
+    image: ProjectUnavailable,
     altText: "Project 3",
   },
   {
-    title: "Future Project 4",
+    title: "Temporarly Unavailable",
     link: "",
-    image: Project4,
+    image: ProjectUnavailable,
     altText: "Project 4",
   },
 ];
